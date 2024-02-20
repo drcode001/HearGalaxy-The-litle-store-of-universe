@@ -1,0 +1,168 @@
+body{
+    background-image: linear-gradient(
+        200deg,
+        #2f00ff,
+        #2214a1,
+        #b938c5,
+        #cc2a2a
+    );
+}
+@font-face{
+    font-family: 'Snowtimes';
+    src: url("../tipografias/snowtimes-Italic.ttf");
+}
+@font-face{
+    font-family: 'Honk';
+    src: url("../tipografias/honk.ttf");
+}
+@font-face{
+    font-family: 'PixelySans';
+    src: url("../tipografias/pixel.ttf");
+}
+header{
+    width: 100%;
+    height: 95px;
+    background-image: linear-gradient(
+        150deg,
+        rgb(0, 255, 255),
+        rgb(84, 104, 221),
+        rgb(83, 12, 175)
+    );
+    border-radius: 40px;
+    position: sticky;
+    top:0;
+    z-index: 10000000;
+}
+li:not(.no-design){
+    list-style-type: none;
+    display:inline;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: PixelySans;
+}
+.snowtimes {
+    font-family: Snowtimes;
+    font-size: 150px;
+    color: #66ff00;
+    text-align: center;
+    margin-left: 460px;
+}
+.compra{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(
+        150deg,
+        #ff0000,
+        #ff00c8,
+        #a200ff
+    );
+    border-radius: 40px;
+    display: inline-block;
+    border: dashed white 5px;
+    justify-content: space-between;
+}
+h1{
+    display: inline-block;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    text-align: center; 
+    font-family: Honk;
+}
+img{
+    border-radius: 40px;
+    width: 300px;
+    height: 250px;
+    margin-top: 24px;
+}
+.comprar{
+    padding:10px;
+    background-image: linear-gradient(
+        150deg,
+        #ff0000,
+        #ffbc04,
+        #1eff00
+    );
+    border-radius: 12px;
+    display: inline-block;
+}
+.hear{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline;
+}
+.div-padre{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 20px;
+    font-family: PixelySans;
+}
+.h1{
+    display: inline-block;
+    margin-bottom: 45px;
+}
+.gato{
+     width: 500px;
+     height: 350px;
+     margin-top:48px;
+     margin-left: 400px;
+}
+.a{
+    margin-left: 24px;
+    font-size: 40px;
+}
+.a p{
+    font-size: 25px;
+}
+.c a{
+    margin:24px;
+
+}
+@media (max-width:576px) {
+    /* MEDIA QUERIES PARA CEL */
+    header{
+        width: 100%;
+    }
+    body{
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: 225%;
+    }
+    .snowtimes {
+        justify-content: center;
+        margin-left: 90px;
+    }
+    h1{
+       font-size: 30px;
+    }
+    html{
+        width: 100%;
+    }
+    img{
+        width: 200px;
+        height:200px;
+        margin-top: 50;
+    }
+    input{
+        margin-left: 12px;
+        margin-right:32px;
+    }
+}
+input{
+    border-radius: 100px;
+    color: white;
+    background: black;
+    margin-right:48px;
+}
