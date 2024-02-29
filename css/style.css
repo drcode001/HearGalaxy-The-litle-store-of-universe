@@ -87,6 +87,7 @@ img{
     );
     border-radius: 12px;
     display: inline-block;
+    transition: all .3s ease;
 }
 .hear{
     border-radius: 100%;
@@ -165,4 +166,16 @@ input{
     color: white;
     background: black;
     margin-right:48px;
+}
+.comprar:hover{
+    transition: all .3s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.comprar:active{
+    transition: all .3s ease;
+    transform: scale(0.9);
+}
+.redondo{
+    border-radius: 100%;
 }
