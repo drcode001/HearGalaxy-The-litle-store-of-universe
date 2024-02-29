@@ -101,7 +101,7 @@ img{
     display: flex;
     justify-content: space-between;
 }
-ul{
+.otros{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
@@ -178,4 +178,9 @@ input{
 }
 .redondo{
     border-radius: 100%;
+}
+.ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
 }
