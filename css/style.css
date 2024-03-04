@@ -111,7 +111,7 @@ p{
     font-family: PixelySans;
 }
 .h1{
-    display: inline-block;
+    display: inline;
     margin-bottom: 45px;
 }
 .gato{
@@ -170,9 +170,6 @@ p{
     .compra{
         height: unset;
         width: 100%;
-    }
-    .h1{
-        margin-left: 0px;
     }
 }
 input{
@@ -236,9 +233,6 @@ input{
         height: unset;
         width: 100%;
     }
-    .h1{
-        margin-left: 0px;
-    }
 }
 @media (min-width: 1024px) and (max-width: 1200px){
     header{
@@ -278,9 +272,6 @@ input{
     .compra{
         height: unset;
         width: 100%;
-    }
-    .h1{
-        margin-left: 0px;
     }
     .gato{
         margin-top:48px;
