@@ -130,6 +130,15 @@ p {
 
 @media (max-width: 576px) {
   /* MEDIA QUERIES PARA CEL */
+  .b {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #imgImg {
+    width: 300px;
+    height: 300px;
+  }
   header {
     width: 100%;
   }
@@ -141,8 +150,8 @@ p {
   }
   .snowtimes {
     justify-content: center;
-    margin-left: 90px;
-    font-size: 48px;
+    margin-left: 85px;
+    font-size: 80px;
   }
   h1 {
     font-size: 30px;
@@ -315,4 +324,6 @@ hr {
 
 .php {
   color: white;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
