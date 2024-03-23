@@ -1,0 +1,29 @@
+$modo: 'oscuro';
+
+@if $modo == 'oscuro'{
+    body{
+        background-color: #181818;
+    }
+} @else {
+    body{
+        background-color: #ffffff;
+    }
+}
+@if .claro:active{
+    body{
+       background-color: #e6e6e6; 
+    }
+} @else {
+    body{
+        background-color: #181818;
+    }
+}
+@if .oscuro:active{
+    body{
+       background-color: #181818; 
+    }
+} @else {
+    body{
+        background-color: #e6e6e6;
+    }
+}

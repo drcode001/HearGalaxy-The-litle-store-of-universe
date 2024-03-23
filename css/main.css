@@ -1,3 +1,9 @@
+@import url(./general/variables.scss);
+@import url(./layout/header.scss);
+body {
+  background-color: #181818;
+}
+
 body {
   margin: 8px;
   background-color: #181818;
@@ -63,7 +69,7 @@ h1 {
   font-family: Honk;
 }
 
-img {
+#imgImg {
   border-radius: 40px;
   width: 300px;
   height: 250px;
@@ -130,15 +136,6 @@ p {
 
 @media (max-width: 576px) {
   /* MEDIA QUERIES PARA CEL */
-  .b {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #imgImg {
-    width: 300px;
-    height: 300px;
-  }
   header {
     width: 100%;
   }
@@ -150,8 +147,8 @@ p {
   }
   .snowtimes {
     justify-content: center;
-    margin-left: 85px;
-    font-size: 80px;
+    margin-left: 90px;
+    font-size: 48px;
   }
   h1 {
     font-size: 30px;
@@ -159,10 +156,8 @@ p {
   html {
     width: 100%;
   }
-  img {
-    width: 200px;
-    height: 200px;
-    margin-top: 50;
+  #imgImg {
+    margin-top: unset;
   }
   input {
     margin-left: 12px;
@@ -226,10 +221,8 @@ input {
   html {
     width: 100%;
   }
-  img {
-    width: 200px;
-    height: 200px;
-    margin-top: 50;
+  #imgImg {
+    margin-top: unset;
   }
   input {
     margin-left: 12px;
@@ -296,6 +289,10 @@ input {
 }
 
 @media (max-width: 576px) {
+  #imgImg {
+    width: 300px;
+    height: 300px;
+  }
   body {
     width: unset;
   }
@@ -309,6 +306,9 @@ input {
 .content {
   width: 100%;
   justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .no-design {
@@ -326,4 +326,59 @@ hr {
   color: white;
 }
 
-/*# sourceMappingURL=main.css.map */
+.b {
+  display: flex;
+  justify-content: center;
+}
+
+#imgImg {
+  width: 250px;
+  height: 250px;
+}
+
+.icons {
+  width: 75px;
+  height: 75px;
+  margin-top: 9px;
+}
+
+.dropdown-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 25;
+  background-color: #181818;
+  padding: 12px;
+  flex-direction: column;
+  border-radius: 24px;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+}
+
+.dropdown {
+  position: relative;
+}
+
+#claro {
+  border-radius: 500px;
+}
+
+#a {
+  color: white;
+}
+
+.dropdown:hover .dropdown-container {
+  display: flex;
+}
+
+.dropdown-container:hover {
+  display: flex;
+}
+
+#oscuro {
+  border-radius: 500px;
+}
+
+.pPp {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,7 @@
+body {
+  background-color: #181818;
+}
+
+if .claro:active body {
+  background-color: #e6e6e6;
+}/*# sourceMappingURL=variables.css.map */
